@@ -1,1 +1,40 @@
-<h1>Home</h1>
+<div class="card text-white text-shadow mb-5">
+    <%= image_tag 'img1.png', class:"card-img" %>
+    <div class="card-img-overlay">
+        <div class="pe-3">
+            <div class="row ps-3 pt-2">
+                <h5 class="card-title display-4 fw-bold">Erick <br> Rivera</h5>
+                <p class="card-text col-3">
+                    Diseñador multimedia. Actualmente formándome en informática.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------------------------------------------------------------------->
+<div class="row">
+    <div class="col-4">
+        <div class="card">
+            <%= image_tag 'home1.png', class:"card-img-top" %>
+            <div class="card-body text-center">
+              <%=link_to "Inicio", home_path, class: "btn btn-outline-dark fs-3 px-5"%>
+            </div>
+          </div>
+    </div>
+    <div class="col-4">
+        <div class="card">
+            <%= image_tag 'home2.png', class:"card-img-top" %>
+            <div class="card-body text-center">
+              <%=link_to "Proyectos", projects_path, class: "btn btn-outline-dark fs-3 px-5"%>
+            </div>
+          </div>
+    </div>
+    <div class="col-4">
+        <div class="card">
+            <%= image_tag 'home3.png', class:"card-img-top" %>
+            <div class="card-body text-center">
+              <%=link_to "Contacto", contact_path, class: "btn btn-outline-dark fs-3 px-5"%>
+            </div>
+          </div>
+    </div>
+</div>

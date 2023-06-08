@@ -1,2 +1,26 @@
-<h1>Pages#contact</h1>
-<p>Find me in app/views/pages/contact.html.erb</p>
+<h1 class="display-4">Contacto</h1>
+<hr>
+<div class="row pb-5 mb-5">
+    <div class="col-md-12">
+        <form>
+            <div class="mb-4">
+                <label for="exampleInputName" class="form-label fs-6">Nombre</label>
+                <input type="text" name="exapleName" id="ExapleInputName" class="form-control"
+                    placeholder="Nombre">
+            </div>
+            <div class="mb-4">
+                <label for="exampleInputEmail1" class="form-label fs-6">Correo Electrónico</label>
+                <input type="email" class="form-control" id="exampleInputEmail1"
+                    aria-describedby="emailHelp" placeholder="Correo Electrónico">
+            </div>
+            <div class="mb-3 d-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">
+                <label for="exampleInputMessage" class="form-label">Mensaje (Opcional)</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"
+                    placeholder="Escribe aquí tu mensaje"></textarea>
+            </div>
+            <div class="text-center text-md-start">
+                <button type="submit" class="btn btn-dark px-4 py-2 text-white">Enviar</button>
+            </div>
+        </form>
+    </div>
+</div>
