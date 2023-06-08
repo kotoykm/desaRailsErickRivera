@@ -1,0 +1,11 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+#bottom-footer{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.text-shadow{
+    text-shadow: 5px 4px 10px rgb(0 0 0 / 45%);
+}
